@@ -1,0 +1,21 @@
+programa
+{
+    funcao inicio()
+    {
+        inteiro contador
+
+        escreva("Digite o número inicial da contagem regressiva: ")
+        leia(contador)
+
+        enquanto (contador >= 0) {
+            escreva(contador, "\n")
+            contador = contador - 1
+            para (inteiro i = 0; i < 100000000; i++) {} // Pausa para visualização
+        }
+
+        escreva("Fogo!")
+    }
+}
+
+
+3º codigo 
